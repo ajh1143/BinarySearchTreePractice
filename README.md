@@ -1,0 +1,2 @@
+# BinarySearchTreePractice
+Practicing BST 
