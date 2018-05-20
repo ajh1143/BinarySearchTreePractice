@@ -1,5 +1,6 @@
+#Create Node
 class Node:
-    #constructor
+    #create constructor
     def __init__(self, value):
         #data value
         self.value = value
@@ -9,6 +10,10 @@ class Node:
 
     #insert data
     def insert(self, data):
+    """
+    param: data - value 
+    return: boolean
+    """
         if self.value == data:
             return False
         elif self.value > data:
